@@ -12,6 +12,9 @@
     <Folder Include="Features\Brands\Models\" />
     <Folder Include="Features\Brands\Rules\" />
     <Folder Include="Features\Brands\Queries\" />
+    <Folder Include="Features\Brands\Profiles\" />
+    <Folder Include="Features\" />
+
   </ItemGroup>
 
   <ItemGroup>
@@ -19,7 +22,7 @@
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
     <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="5.0.0" />
-    
+
   </ItemGroup>
 
   <ItemGroup>
