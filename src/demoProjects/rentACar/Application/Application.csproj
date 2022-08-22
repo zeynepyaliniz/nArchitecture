@@ -4,6 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <UserSecretsId>ce207f97-8f12-4820-8f02-b1a0b0345a76</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -11,9 +12,14 @@
     <Folder Include="Features\Brands\Constants\" />
     <Folder Include="Features\Brands\Dtos\" />
     <Folder Include="Features\Brands\Models\" />
-    <Folder Include="Features\Brands\Profiles\" />
-    <Folder Include="Features\Brands\Queries\" />
     <Folder Include="Features\Brands\Rules\" />
+    <Folder Include="Features\Brands\Queries\" />
+    <Folder Include="Features\Brands\Profiles\" />
+    <Folder Include="Features\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="5.0.0" />
   </ItemGroup>
 
   <ItemGroup>
